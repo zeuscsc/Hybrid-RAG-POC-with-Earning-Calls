@@ -19,3 +19,13 @@ For My version of Hybrid RAG, it will be more even since even if the Vector Sear
 ## Hybrid RAG
 I created some nodes call parameters and they will be connected to the banks with the specific documents that is related such as Profit, Cost, Challenge, Opportunity, Plan, Significant one-time gain or loss, dividend policy.
 I also created another function called parameters extract for extracting the key value required for Cypher Query. This way we can use the Knowledge Graph more effectively without hardcoding the Cypher Queries to the system.
+
+## Setup
+If you need to try it, you will need:
+
+Dify
+Neo4j
+Ollama
+pytorch with CUDA
+
+And also install the required libraries.
