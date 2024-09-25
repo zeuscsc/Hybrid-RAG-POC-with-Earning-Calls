@@ -1,0 +1,1 @@
+{"question":"Who went to multiple banks' earnings calls event?","cypher":"MATCH (s:Speaker)-[:SPOKE_IN]->(:Chunk)<-[:HAS_CHUNK]-(b:Bank) WITH s, COUNT(DISTINCT b) AS bank_count WHERE bank_count > 1 MATCH (s:Speaker)-[:SPOKE_IN]->(:Chunk)<-[:HAS_CHUNK]-(b:Bank) RETURN DISTINCT s.name AS speaker_name, b.name AS bank_name"}

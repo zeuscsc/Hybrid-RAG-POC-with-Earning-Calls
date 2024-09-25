@@ -1,0 +1,7 @@
+pandas
+zeus_utility
+torch
+fastapi
+pymilvus
+neo4j
+FlagEmbedding

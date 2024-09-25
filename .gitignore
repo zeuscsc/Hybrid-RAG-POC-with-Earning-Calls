@@ -1,0 +1,9 @@
+dify_cache
+debug
+__pycache__
+.vscode
+old_notebooks
+~*
+*.pptx
+*.mp4
+tasks_requirement
